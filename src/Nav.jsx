@@ -1,3 +1,5 @@
+import { IoMdMenu } from "react-icons/io"
+
 export const Nav = () => {
   return (
     <nav>
@@ -10,6 +12,7 @@ export const Nav = () => {
             <li><a href="#">Order Online</a></li>
             <li><a href="#">Login</a></li>
         </ul>
+        <IoMdMenu size={30} className="iconMenu"/>
     </nav>
   )
 }
