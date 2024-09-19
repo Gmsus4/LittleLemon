@@ -1,0 +1,123 @@
+.login-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--secundaryGrey);
+}
+
+.login-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.login-info{
+    width: 30%;
+    background-color: white;
+    border-radius: 16px;
+    padding: 40px 20px;
+}
+
+.login-img{
+    width: 50%;
+}
+
+.login-data img{
+    width: 100%;
+}
+
+.login-info h1{
+    font-size: 60px;
+    font-family: var(--txt1);
+    color: var(--secundaryBlack);
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 0 20px 0;
+}
+
+.signup-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.signup-links button, .login-info form button{
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--txt2);
+    font-size: 16px;
+    padding: 5px 0;
+    background-color: var(--primaryYellowLight);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.divider-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.divider-login p{
+    width: 100%;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.divider-login .divider{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.login-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-info form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin: 20px 0 20px 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input{
+    height: 30px;
+    border-radius: 10px;
+    background-color: var(--secundaryGrey);
+}
+
+.login-info form button{
+    height: 50px;
+    width: 100%;
+    background-color: var(--primaryYellow);
+}

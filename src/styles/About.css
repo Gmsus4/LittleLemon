@@ -1,0 +1,38 @@
+  .section-about{
+      margin: 150px 0 100px 0;
+    }
+  
+  .about-container{
+    display: flex;
+    gap: 60px;
+  }
+  
+  .about-container div{
+    width: 400px;
+  }
+  
+  .adrian-mario{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    height: inherit;
+  }
+  
+  .adrian-mario img {
+    width: 300px;
+    height: 264px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  
+  .imga{
+    margin-top: 140px;
+  }
+  
+  .imgb{
+    position: absolute;
+    object-fit: cover;
+    left: 200px;
+    top: -50px;
+  }

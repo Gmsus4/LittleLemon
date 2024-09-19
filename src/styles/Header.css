@@ -1,0 +1,37 @@
+header{
+    background-color: var(--primaryGreen);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+  }
+  
+  .header-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-container div{
+    width: 500px;
+  }
+  
+  .header-container img{
+    width: 376px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-top: 80px;
+  }
+  
+  .header-container div p{
+    font-size: var(--txt2);
+    color: var(--secundaryGrey);
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .header-container div a{
+    width: 300px;
+  }

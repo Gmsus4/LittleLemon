@@ -5,7 +5,7 @@ export const Card = ({title, description, price, urlImage, urlOrder, alt}) => {
     <div className="card">
         <img src={urlImage} alt={alt}/>
         <div className="card-header">
-          <p>{title}</p>
+          <h3>{title}</h3>
           <span>${price}</span>
         </div>
         <div className="card-main">

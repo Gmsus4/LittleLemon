@@ -1,0 +1,52 @@
+p{
+  font-size: 16px;
+  color: black;
+  margin: 0 0 16px;
+  font-family: var(--txt2);
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 216px;
+    height: 55px;
+    background-color: var(--primaryYellow);
+    color: var(--secundaryBlack);
+    font-size: 20px;
+    font-family: var(--txt2);
+    font-weight: bold;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+
+  .btn:hover{
+    scale: 1.05;
+  }
+  
+  .chicago h1{
+    margin: 0;
+    font-family: var(--txt1);
+    font-optical-sizing: auto;
+    font-size: 64px;
+    color: var(--primaryYellow);
+    font-weight: 400;
+  }
+  
+  .chicago .subtitle{
+    font-size: var(--txt1);
+    font-optical-sizing: auto;
+    color: var(--secundaryGrey);
+    font-size: 40px;
+    margin: 0;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+  
+  .chicago p{
+    font-family: var(--txt2);
+    font-size: 16px;
+}
